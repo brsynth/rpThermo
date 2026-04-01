@@ -241,14 +241,3 @@ class Test_rpThermo(TestCase):
                 "TARGET_0000000001": 1.5,
             },
         )
-        # cc = initThermo()
-        # species, unk_compounds = get_compounds_from_cache(
-        #     compounds=pathway.get_species(),
-        #     cc=cc
-        # )
-
-        # results = eQuilibrator(
-        #     species_stoichio=pathway.net_reaction(),
-        #     species=species,
-        #     cc=cc
-        # )
