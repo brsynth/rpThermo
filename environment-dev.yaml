@@ -1,4 +1,4 @@
-name: rplibs
+name: rpthermo
 channels:
   - conda-forge
   - nodefaults

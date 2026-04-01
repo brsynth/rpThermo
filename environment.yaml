@@ -1,11 +1,11 @@
-name: rpextractsink
+name: rpthermo
 channels:
   - conda-forge
 dependencies:
   - python=3.11
-  - pandas
-  - rdkit
-  - rr_cache
+  - numpy
+  - scipy
+  - equilibrator-api
   - brs_utils
-  - rxn_rebuild
+  - chemlite
   - rplibs
