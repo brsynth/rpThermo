@@ -105,8 +105,6 @@ def runThermo(
             )
         # Else, take search values from rpCompound
         else:
-            # print(spe.get_name(), spe.get_id(), spe.get_inchikey(), spe.get_inchi(), spe.get_smiles())
-            # exit()
             cc_species[spe.get_id()] = search_equilibrator_compound(
                 cc=cc,
                 id=spe.get_id(),
