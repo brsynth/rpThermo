@@ -4,8 +4,11 @@ from logging import Logger, getLogger
 from os import makedirs as os_makedirs, path as os_path
 from typing import Dict
 from colored import fg, attr
-from rpthermo import runThermo
-from rplibs import build_args_parser, rpPathway
+from rplibs import rpPathway
+from brs_utils import init
+from .Args import build_args_parser
+from .thermo import runThermo
+from ._version import __version__
 
 
 def _cli():
@@ -14,9 +17,7 @@ def _cli():
     )
     args = parser.parse_args()
 
-    from __main__ import init
-
-    logger = init(parser, args)
+    logger = init(parser, args, __version__)
 
     msg = "Parameters\n----------\n"
     for param in ["pH", "ionic_strength", "pMg"]:
