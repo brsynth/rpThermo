@@ -5,6 +5,6 @@ Created on Jan 21 2021
 
 """
 
-from rpthermo.rpthermo import runThermo, initThermo
+from rpthermo.thermo import runThermo, initThermo
 
 __all__ = ["runThermo", "initThermo"]

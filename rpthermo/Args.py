@@ -9,18 +9,6 @@ MIN_ionic_strength = 0
 MAX_ionic_strength = 500
 
 
-def build_args_parser(
-    prog: str, description: str = "", epilog: str = ""
-) -> ArgumentParser:
-
-    parser = ArgumentParser(prog=prog, description=description, epilog=epilog)
-
-    # Build Parser with rptools common arguments
-    parser = add_arguments(parser)
-
-    return parser
-
-
 def add_arguments(parser: ArgumentParser) -> ArgumentParser:
 
     # positional arguments
