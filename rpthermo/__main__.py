@@ -5,8 +5,10 @@ from os import makedirs as os_makedirs, path as os_path
 from typing import Dict
 from colored import fg, attr
 from rplibs import rpPathway
-from brs_utils import init
-from rplibs import build_args_parser
+from brs_utils import (
+    init as init_logger,
+    build_args_parser,
+)
 from .Args import add_arguments
 from .thermo import runThermo
 from ._version import __version__
@@ -15,12 +17,13 @@ from ._version import __version__
 def _cli():
     parser = build_args_parser(
         prog="rpthermo",
+        version = __version__,
         description="Calculate score by processing thermodynamics",
         m_add_args=add_arguments,
     )
     args = parser.parse_args()
 
-    logger = init(parser, args, __version__)
+    logger = init_logger(parser, args, __version__)
 
     msg = "Parameters\n----------\n"
     for param in ["pH", "ionic_strength", "pMg"]:
