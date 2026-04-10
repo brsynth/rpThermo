@@ -17,7 +17,7 @@ from ._version import __version__
 def _cli():
     parser = build_args_parser(
         prog="rpthermo",
-        version = __version__,
+        version=__version__,
         description="Calculate score by processing thermodynamics",
         m_add_args=add_arguments,
     )
