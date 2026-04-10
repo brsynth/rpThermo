@@ -6,6 +6,6 @@ dependencies:
   - numpy
   - scipy
   - equilibrator-api
-  - brs_utils
+  - brs_utils>=1.26.0
   - chemlite
   - rplibs
