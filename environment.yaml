@@ -8,4 +8,4 @@ dependencies:
   - equilibrator-api
   - brs_utils>=1.26.0
   - chemlite
-  - rplibs
+  - rplibs>=6.9.3
