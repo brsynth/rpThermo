@@ -25,6 +25,11 @@ def _cli():
 
     logger = init_logger(parser, args, __version__)
 
+    # Printout all parameters for debugging
+    logger.debug("Parameters")
+    for param in vars(args):
+        logger.debug("   |--> " + param + ": " + str(getattr(args, param)))
+
     msg = "Parameters\n----------\n"
     for param in ["pH", "ionic_strength", "pMg"]:
         value = getattr(args, param)
@@ -49,7 +54,9 @@ def _cli():
     print_results(pathway, results, logger)
     # Write pathway into file
     # Create the output directory if not exists
-    os_makedirs(os_path.dirname(args.outfile), exist_ok=True)
+    out_dir = os_path.dirname(args.outfile)
+    if out_dir:
+        os_makedirs(out_dir, exist_ok=True)
     pathway.to_rpSBML().write_to_file(args.outfile)
     logger.info(
         "{color}{typo}Written into file: {file}{rst}".format(
