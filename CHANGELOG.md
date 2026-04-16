@@ -1,8 +1,16 @@
 # Changelog
 
+## [6.8.4](https://github.com/brsynth/rpThermo/tree/6.8.4) (2026-04-16)
+
+[Full Changelog](https://github.com/brsynth/rpThermo/compare/6.8.3...6.8.4)
+
 ## [6.8.3](https://github.com/brsynth/rpThermo/tree/6.8.3) (2026-04-15)
 
 [Full Changelog](https://github.com/brsynth/rpThermo/compare/6.8.2...6.8.3)
+
+**Merged pull requests:**
+
+- Main [\#4](https://github.com/brsynth/rpThermo/pull/4) ([breakthewall](https://github.com/breakthewall))
 
 ## [6.8.2](https://github.com/brsynth/rpThermo/tree/6.8.2) (2026-04-10)
 
