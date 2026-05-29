@@ -106,8 +106,8 @@ subdir: osx-64
 ### rpThermo process
 **From Python code**
 ```python
-from rptools.rplibs import rpSBML
-from rptools.rpthermo import runThermo
+from rplibs import rpSBML
+from rpthermo import runThermo
 
 pathway = rpSBML(inFile='lycopene/rp_003_0382.sbml').to_Pathway()
 
@@ -122,7 +122,7 @@ print(pathway.get_fba_dGm_prime())
 ```
 **From CLI**
 ```sh
-python -m rptools.rpthermo <input_sbml> <outfile>
+python -m rpthermo <input_sbml> <outfile>
 ```
 
 ## Tests
