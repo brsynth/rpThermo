@@ -238,7 +238,7 @@
             <rdf:BRSynth rdf:about="#_7af1776cbbaecbf874d7f576d21891f6ad79e3b7c2e726cfd2ee9f5bd6f483c4">
               <brsynth:brsynth xmlns:brsynth="http://brsynth.eu">
                 <brsynth:smiles value="[H]OC(=O)C([H])([H])C([H])([H])c1c([H])c([H])c([H])c([H])c1[H].N=C(O)c1ccc[n+](C2OC(COP(=O)(O)OP(=O)(O)OCC3OC(n4cnc5c(N)ncnc54)C(O)C3O)C(O)C2O)c1&gt;&gt;[H]OC(=O)C([H])=C([H])c1c([H])c([H])c([H])c([H])c1[H].[H+].N=C(O)C1=CN(C2OC(COP(=O)(O)OP(=O)(O)OCC3OC(n4cnc5c(N)ncnc54)C(O)C3O)C(O)C2O)C=CC1"/>
-                <brsynth:rp2_transfo_id value="TRS_0_1_3"/>
+                <brsynth:transfo_id value="TRS_0_1_3"/>
                 <brsynth:rule_id value="RR-02-4c79f297821e39c8-16-F"/>
                 <brsynth:tmpl_rxn_ids>
                   <brsynth:MNXR107408/>
@@ -301,7 +301,7 @@
             <rdf:BRSynth rdf:about="#c9c2d56fd0ad9d5b8cd80acad4b5df22945ab4de50db7b24db52a91a7560c3ff">
               <brsynth:brsynth xmlns:brsynth="http://brsynth.eu">
                 <brsynth:smiles value="[H]OC(=O)C([H])=C([H])c1c([H])c([H])c([H])c([H])c1[H].[H+]&gt;&gt;O=C=O.[H]C([H])=C([H])c1c([H])c([H])c([H])c([H])c1[H]"/>
-                <brsynth:rp2_transfo_id value="TRS_0_0_0"/>
+                <brsynth:transfo_id value="TRS_0_0_0"/>
                 <brsynth:rule_id value="RR-02-caf68bc1dcd9ce0f-16-F"/>
                 <brsynth:tmpl_rxn_ids>
                   <brsynth:MNXR114372/>

@@ -432,7 +432,7 @@
             <rdf:BRSynth rdf:about="#_7af1776cbbaecbf874d7f576d21891f6ad79e3b7c2e726cfd2ee9f5bd6f483c4">
               <brsynth:brsynth xmlns:brsynth="http://brsynth.eu">
                 <brsynth:smiles value="[H+].[H]O[H].O=O.[H]OC(=O)C([H])(N([H])[H])C([H])([H])c1c([H])c([H])c([H])c([H])c1[H]&gt;&gt;[H]C(=O)C([H])([H])c1c([H])c([H])c([H])c([H])c1[H].O=C=O.N.OO"/>
-                <brsynth:rp2_transfo_id value="TRS_0_2_3"/>
+                <brsynth:transfo_id value="TRS_0_2_3"/>
                 <brsynth:rule_id value="RR-02-00dd001fd1069839-16-F"/>
                 <brsynth:tmpl_rxn_ids>
                   <brsynth:MNXR122572/>
@@ -498,7 +498,7 @@
             <rdf:BRSynth rdf:about="#c9c2d56fd0ad9d5b8cd80acad4b5df22945ab4de50db7b24db52a91a7560c3ff">
               <brsynth:brsynth xmlns:brsynth="http://brsynth.eu">
                 <brsynth:smiles value="[H]C(=O)C([H])([H])c1c([H])c([H])c([H])c([H])c1[H]&gt;&gt;[H]c1c([H])c([H])c(C2([H])OC2([H])[H])c([H])c1[H]"/>
-                <brsynth:rp2_transfo_id value="TRS_0_1_6"/>
+                <brsynth:transfo_id value="TRS_0_1_6"/>
                 <brsynth:rule_id value="RR-02-051398bdbd090ac0-16-F"/>
                 <brsynth:tmpl_rxn_ids>
                   <brsynth:MNXR107616/>
@@ -557,7 +557,7 @@
             <rdf:BRSynth rdf:about="#_376841fa42ba139764a5509b9d817e2e540d0e228582c970025c73ae1ee77c0d">
               <brsynth:brsynth xmlns:brsynth="http://brsynth.eu">
                 <brsynth:smiles value="[H]c1c([H])c([H])c(C2([H])OC2([H])[H])c([H])c1[H].[H]O[H].Cc1cc2c(cc1C)N(CC(O)C(O)C(O)COP(=O)(O)OP(=O)(O)OCC1OC(n3cnc4c(N)ncnc43)C(O)C1O)c1nc(O)nc(O)c1N2.N=C(O)c1ccc[n+](C2OC(COP(=O)(O)OP(=O)(O)OCC3OC(n4cnc5c(N)ncnc54)C(OP(=O)(O)O)C3O)C(O)C2O)c1&gt;&gt;[H+].[H+].[H+].[H+].Cc1cc2nc3c(O)nc(=O)nc-3n(CC(O)C(O)C(O)COP(=O)(O)OP(=O)(O)OCC3OC([n+]4c[nH]c5c(N)ncnc54)C(O)C3O)c2cc1C.O=O.N=C(O)C1=CN(C2OC(COP(=O)(O)OP(=O)(O)OCC3OC(n4cnc5c(N)ncnc54)C(OP(=O)(O)O)C3O)C(O)C2O)C=CC1.[H]C([H])=C([H])c1c([H])c([H])c([H])c([H])c1[H]"/>
-                <brsynth:rp2_transfo_id value="TRS_0_0_1"/>
+                <brsynth:transfo_id value="TRS_0_0_1"/>
                 <brsynth:rule_id value="RR-02-c3ec74eeb9cbf299-16-F"/>
                 <brsynth:tmpl_rxn_ids>
                   <brsynth:MNXR135424/>
